@@ -1,4 +1,4 @@
-donor,acetate,propionate,butyrate,treatment
+subject_id,acetate,propionate,butyrate,treatment
 7,4.18,1.45,0.97,Blank
 8,5.01,1.4,1.09,Blank
 9,2.86,0.87,0.79,Blank
