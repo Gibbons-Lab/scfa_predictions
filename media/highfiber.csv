@@ -1,142 +1,92 @@
-reaction,metabolite,flux,name,hmdb,kegg.compound,pubchem.compound,inchi,chebi,reaction,global_id
-EX_etoh_m,etoh,4.5584391904212,ethanol,HMDB00108,C00469,702.0,"InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3",,EX_etoh_m,EX_etoh(e)
-EX_h2o_m,h2o,36334.2673552674,Water,HMDB02111,C00001,962.0,InChI=1S/H2O/h1H2,,EX_h2o_m,EX_h2o(e)
-EX_caro_m,caro,0.0026263214028803203,beta-carotene,HMDB00561,C02094,,,,EX_caro_m,EX_caro(e)
-EX_retinol_m,retinol,0.2199324423393,retinol,HMDB00305,C00473,445354.0,"InChI=1S/C20H30O/c1-16(8-6-9-17(2)13-15-21)11-12-19-18(3)10-7-14-20(19,4)5/h6,8-9,11-13,21H,7,10,14-15H2,1-5H3",,EX_retinol_m,EX_retinol(e)
-EX_thm_m,thm,1.447120193130248,Thiamin,HMDB00235,C00378,1130.0,"InChI=1S/C12H17N4OS/c1-8-11(3-4-17)18-7-16(8)6-10-5-14-9(2)15-12(10)13/h5,7,17H,3-4,6H2,1-2H3,(H2,13,14,15)/q+1",,EX_thm_m,EX_thm(e)
-EX_ribflv_m,ribflv,0.00137898454129102,Riboflavin,HMDB00244,C00255,493570.0,,,EX_ribflv_m,EX_ribflv(e)
-EX_nac_m,nac,0.09598571680118581,Nicotinate,HMDB01488,C00253,938.0,,,EX_nac_m,EX_nac(e)
-EX_ncam_m,ncam,0.0432754743925466,Nicotinamide,HMDB01406,C00153,936.0,,,EX_ncam_m,EX_ncam(e)
-EX_pnto_R_m,pnto_R,0.01097022824856686,(R)-Pantothenate,HMDB00210,C00864,988.0,"InChI=1S/C9H17NO5/c1-9(2,5-11)7(14)8(15)10-4-3-6(12)13/h7,11,14H,3-5H2,1-2H3,(H,10,15)(H,12,13)/p-1",,EX_pnto_R_m,EX_pnto_R(e)
-EX_pydam_m,pydam,0.00099881206375848,Pyridoxamine,HMDB01431,C00534,1052.0,"InChI=1S/C8H12N2O2/c1-5-8(12)7(2-9)6(4-11)3-10-5/h3,11-12H,2,4,9H2,1H3/p+1",,EX_pydam_m,EX_pydam(e)
-EX_pydxn_m,pydxn,0.00099894903468422,Pyridoxine,HMDB00239,C00314,1054.0,"InChI=1S/C8H11NO3/c1-5-8(12)7(4-11)6(3-10)2-9-5/h2,10-12H,3-4H2,1H3",,EX_pydxn_m,EX_pydxn(e)
-EX_pydx_m,pydx,0.0010109953219033,Pyridoxal,HMDB01545,C00250,1050.0,"InChI=1S/C8H9NO3/c1-5-8(12)7(4-11)6(3-10)2-9-5/h2,4,10,12H,3H2,1H3",,EX_pydx_m,EX_pydx(e)
-EX_btn_m,btn,9.584357263606001e-05,Biotin,HMDB00030,C00120,171548.0,"InChI=1S/C10H16N2O3S/c13-8(14)4-2-1-3-7-9-6(5-16-7)11-10(15)12-9/h6-7,9H,1-5H2,(H,13,14)(H2,11,12,15)/p-1/t6-,7-,9-/m0/s1",,EX_btn_m,EX_btn(e)
-EX_10fthf_m,10fthf,5.093934666798e-05,10-Formyltetrahydrofolate,HMDB00972,C00234,122347.0,,,EX_10fthf_m,EX_10fthf(e)
-EX_5mthf_m,5mthf,5.238108845082e-05,5-Methyltetrahydrofolate,HMDB01396,C00440,439234.0,,,EX_5mthf_m,EX_5mthf(e)
-EX_thf_m,thf,5.415714864664e-05,"5,6,7,8-Tetrahydrofolate",HMDB01846,C00101,91443.0,,,EX_thf_m,EX_thf(e)
-EX_ascb_L_m,ascb_L,0.30277038903311004,L-ascorbate,HMDB00044,C00072,,"InChI=1S/C6H8O6/c7-1-2(8)5-3(9)4(10)6(11)12-5/h2,5,7-10H,1H2/p-1/t2-,5+/m0/s1",,EX_ascb_L_m,EX_ascb_L(e)
-EX_phyQ_m,phyQ,0.0009363080233514,phylloquinone,HMDB03555,C02059,5280483.0,,,EX_phyQ_m,EX_phyQ(e)
-EX_ca2_m,ca2,33.0201107839713,calcium(2+),HMDB00464,C00076,,InChI=1S/Ca/q+2,,EX_ca2_m,EX_ca2(e)
-EX_cl_m,cl,231.445011705638,Chloride,HMDB00492,C00698,312.0,InChI=1S/ClH/h1H/p-1,,EX_cl_m,EX_cl(e)
-EX_k_m,k,23.289554788827203,potassium,HMDB00586,C00238,813.0,InChI=1S/K/q+1,,EX_k_m,EX_k(e)
-EX_mg2_m,mg2,31.1553178358363,magnesium,,,,,,EX_mg2_m,EX_mg2(e)
-EX_na1_m,na1,29.582376043749402,Sodium,HMDB00588,C01330,923.0,InChI=1S/Na/q+1,,EX_na1_m,EX_na1(e)
-EX_pi_m,pi,4.4672132428555,hydrogenphosphate,HMDB00973,C00009,1004.0,"InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)/p-2",,EX_pi_m,EX_pi(e)
-EX_cu2_m,cu2,0.0473279199320177,Cu2+,,,,,,EX_cu2_m,EX_cu2(e)
-EX_fe2_m,fe2,0.0848912167606768,Fe2+,HMDB00692,C14818,27284.0,InChI=1S/Fe/q+2,,EX_fe2_m,EX_fe2(e)
-EX_fe3_m,fe3,0.0848912167606768,Fe3+,HMDB12943,C14819,29936.0,InChI=1S/Fe/q+3,,EX_fe3_m,EX_fe3(e)
-EX_xylt_m,xylt,0.055210199690034205,xylitol,HMDB02917,C00379,6912.0,"InChI=1S/C5H12O5/c6-1-3(8)5(10)4(9)2-7/h3-10H,1-2H2/t3-,4+,5+",,EX_xylt_m,EX_xylt(e)
-EX_lcts_m,lcts,5.314936027683601,Lactose,HMDB00186,C00243,440995.0,,,EX_lcts_m,EX_lcts(e)
-EX_malt_m,malt,0.1606794109784938,Maltose,HMDB00163,C00208,439186.0,,,EX_malt_m,EX_malt(e)
-EX_sucr_m,sucr,27.423593288275,Sucrose,HMDB00258,C00089,5988.0,,,EX_sucr_m,EX_sucr(e)
-EX_fru_m,fru,31.465458527864,D-Fructose,HMDB00660,C02336,439709.0,,,EX_fru_m,EX_fru(e)
-EX_gal_m,gal,0.202047226874058,D-Galactose,HMDB00143,C00984,439357.0,,,EX_gal_m,EX_gal(e)
-EX_ala_L_m,ala_L,11.81225952148986,L-alanine,HMDB00161,C00041,5950.0,"InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1",,EX_ala_L_m,EX_ala_L(e)
-EX_arg_L_m,arg_L,8.134341349098142,L-argininium(1+),HMDB00517,C00062,6322.0,"InChI=1S/C6H14N4O2/c7-4(5(11)12)2-1-3-10-6(8)9/h4H,1-3,7H2,(H,11,12)(H4,8,9,10)/p+1/t4-/m0/s1",,EX_arg_L_m,EX_arg_L(e)
-EX_asp_L_m,asp_L,16.03210424036696,L-aspartate(1-),HMDB00191,C00049,5960.0,"InChI=1S/C4H7NO4/c5-2(4(8)9)1-3(6)7/h2H,1,5H2,(H,6,7)(H,8,9)/p-1/t2-/m0/s1",,EX_asp_L_m,EX_asp_L(e)
-EX_cys_L_m,cys_L,2.76535967024932,L-cysteine,HMDB00574,C00097,5862.0,"InChI=1S/C3H7NO2S/c4-2(1-7)3(5)6/h2,7H,1,4H2,(H,5,6)/t2-/m0/s1",,EX_cys_L_m,EX_cys_L(e)
-EX_glu_L_m,glu_L,26.1630918969376,L-glutamate(1-),HMDB00148,C00025,33032.0,"InChI=1S/C5H9NO4/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H,7,8)(H,9,10)/p-1/t3-/m0/s1",,EX_glu_L_m,EX_glu_L(e)
-EX_gly_m,gly,12.15649836278718,Glycine,HMDB00123,C00037,750.0,"InChI=1S/C2H5NO2/c3-1-2(4)5/h1,3H2,(H,4,5)",,EX_gly_m,EX_gly(e)
-EX_urate_m,urate,1.263836897560708,Urate,HMDB00289,C00366,1175.0,"InChI=1S/C5H4N4O3/c10-3-1-2(7-4(11)6-1)8-5(12)9-3/h(H4,6,7,8,9,10,11,12)",,EX_urate_m,EX_urate(e)
-EX_his_L_m,his_L,3.4439326968069204,L-histidine,HMDB00177,C00135,6274.0,"InChI=1S/C6H9N3O2/c7-5(6(10)11)1-4-2-8-3-9-4/h2-3,5H,1,7H2,(H,8,9)(H,10,11)/t5-/m0/s1",,EX_his_L_m,EX_his_L(e)
-EX_ile_L_m,ile_L,8.38645025001354,L-isoleucine,HMDB00172,C00407,6306.0,"InChI=1S/C6H13NO2/c1-3-4(2)5(7)6(8)9/h4-5H,3,7H2,1-2H3,(H,8,9)/t4-,5-/m0/s1",,EX_ile_L_m,EX_ile_L(e)
-EX_leu_L_m,leu_L,12.663583712794342,L-leucine,HMDB00687,C00123,6106.0,"InChI=1S/C6H13NO2/c1-4(2)3-5(7)6(8)9/h4-5H,3,7H2,1-2H3,(H,8,9)/t5-/m0/s1",,EX_leu_L_m,EX_leu_L(e)
-EX_lys_L_m,lys_L,9.26935266363442,L-lysinium(1+),HMDB00182,C00047,5962.0,"InChI=1S/C6H14N2O2/c7-4-2-1-3-5(8)6(9)10/h5H,1-4,7-8H2,(H,9,10)/p+1/t5-/m0/s1",,EX_lys_L_m,EX_lys_L(e)
-EX_met_L_m,met_L,2.53399038812744,L-methionine,HMDB00696,C00073,6137.0,"InChI=1S/C5H11NO2S/c1-9-3-2-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)/t4-/m0/s1",,EX_met_L_m,EX_met_L(e)
-EX_phe_L_m,phe_L,5.93958681293136,L-phenylalanine,HMDB00159,C00079,6140.0,"InChI=1S/C9H11NO2/c10-8(9(11)12)6-7-4-2-1-3-5-7/h1-5,8H,6,10H2,(H,11,12)/t8-/m0/s1",,EX_phe_L_m,EX_phe_L(e)
-EX_pro_L_m,pro_L,10.180933809894,L-proline,HMDB00162,C00148,145742.0,"InChI=1S/C5H9NO2/c7-5(8)4-2-1-3-6-4/h4,6H,1-3H2,(H,7,8)/t4-/m0/s1",,EX_pro_L_m,EX_pro_L(e)
-EX_ser_L_m,ser_L,10.422988868864222,L-serine,HMDB00187,C00065,5951.0,"InChI=1S/C3H7NO3/c4-2(1-5)3(6)7/h2,5H,1,4H2,(H,6,7)/t2-/m0/s1",,EX_ser_L_m,EX_ser_L(e)
-EX_thr_L_m,thr_L,7.65178913223058,L-threonine,HMDB00167,C00188,6288.0,"InChI=1S/C4H9NO3/c1-2(6)3(5)4(7)8/h2-3,6H,5H2,1H3,(H,7,8)/t2-,3+/m1/s1",,EX_thr_L_m,EX_thr_L(e)
-EX_trp_L_m,trp_L,1.238598370818096,L-tryptophan,HMDB00929,C00078,6305.0,"InChI=1S/C11H12N2O2/c12-9(11(14)15)5-7-6-13-10-4-2-1-3-8(7)10/h1-4,6,9,13H,5,12H2,(H,14,15)/t9-/m0/s1",,EX_trp_L_m,EX_trp_L(e)
-EX_tyr_L_m,tyr_L,4.253675040082561,L-tyrosine,HMDB00158,C00082,6057.0,"InChI=1S/C9H11NO3/c10-8(9(12)13)5-6-1-3-7(11)4-2-6/h1-4,8,11H,5,10H2,(H,12,13)/t8-/m0/s1",,EX_tyr_L_m,EX_tyr_L(e)
-EX_val_L_m,val_L,10.19572961331258,L-valine,HMDB00883,C00183,6287.0,"InChI=1S/C5H11NO2/c1-3(2)4(6)5(7)8/h3-4H,6H2,1-2H3,(H,7,8)/t4-/m0/s1",,EX_val_L_m,EX_val_L(e)
-EX_ddca_m,ddca,0.020370297898046202,laurate,HMDB00638,C02679,3893.0,"InChI=1S/C12H24O2/c1-2-3-4-5-6-7-8-9-10-11-12(13)14/h2-11H2,1H3,(H,13,14)/p-1",,EX_ddca_m,EX_ddca(e)
-EX_ttdca_m,ttdca,0.15750144042786202,tetradecanoate (n-C14:0),HMDB00806,C06424,11005.0,"InChI=1S/C14H28O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14(15)16/h2-13H2,1H3,(H,15,16)/p-1",,EX_ttdca_m,EX_ttdca(e)
-EX_ttdcea_m,ttdcea,0.00625701417945916,tetradecenoate (n-C14:1),HMDB02000,C08322,68344.0,"InChI=1/C14H26O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14(15)16/h5-6H,2-4,7-13H2,1H3,(H,15,16)/b6-5-",,EX_ttdcea_m,EX_ttdcea(e)
-EX_hdca_m,hdca,6.889428661701441,Hexadecanoate (n-C16:0),HMDB00220,C00249,985.0,"InChI=1S/C16H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16(17)18/h2-15H2,1H3,(H,17,18)/p-1",,EX_hdca_m,EX_hdca(e)
-EX_ocdca_m,ocdca,1.8848284452672663,octadecanoate (n-C18:0),HMDB00827,C01530,3033836.0,"InChI=1S/C18H36O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h2-17H2,1H3,(H,19,20)/p-1",,EX_ocdca_m,EX_ocdca(e)
-EX_ocdcea_m,ocdcea,26.0424922917968,octadecenoate (n-C18:1),HMDB00207,C00712,5460221.0,"InChI=1S/C18H34O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h9-10H,2-8,11-17H2,1H3,(H,19,20)/p-1/b10-9-",,EX_ocdcea_m,EX_ocdcea(e)
-EX_arach_m,arach,0.1335184456981438,arachidate,HMDB02212,C06425,10467.0,"InChI=1S/C20H40O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20(21)22/h2-19H2,1H3,(H,21,22)/p-1",,EX_arach_m,EX_arach(e)
-EX_but_m,but,0.014466595941086522,butyrate,HMDB00039,C00246,264.0,"InChI=1S/C4H8O2/c1-2-3-4(5)6/h2-3H2,1H3,(H,5,6)/p-1",,EX_but_m,EX_but(e)
-EX_octa_m,octa,0.00310048287925924,octanoate (n-C8:0),HMDB00482,C06423,379.0,"InChI=1S/C8H16O2/c1-2-3-4-5-6-7-8(9)10/h2-7H2,1H3,(H,9,10)/p-1",,EX_octa_m,EX_octa(e)
-EX_chsterol_m,chsterol,0.21060717153730601,cholesterol,HMDB00067,C00187,5997.0,,,EX_chsterol_m,EX_chsterol(e)
-EX_sbt_D_m,sbt_D,1.31399042003208,D-glucitol,HMDB00247,C00794,5780.0,"InChI=1S/C6H14O6/c7-1-3(9)5(11)6(12)4(10)2-8/h3-12H,1-2H2/t3-,4+,5-,6-/m1/s1",,EX_sbt_D_m,EX_sbt_D(e)
-EX_glc_D_m,glc_D,24.042199006527202,D-glucose,HMDB00122,C00031,5793.0,,,EX_glc_D_m,EX_glc_D(e)
-EX_hdcea_m,hdcea,0.723396933626362,Hexadecenoate (n-C16:1),HMDB03229,C08362,445638.0,"InChI=1S/C16H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16(17)18/h7-8H,2-6,9-15H2,1H3,(H,17,18)/p-1/b8-7-",,EX_hdcea_m,EX_hdcea(e)
-EX_fol_m,fol,5.452900216738001e-05,Folate,HMDB00121,C00504,6037.0,,,EX_fol_m,EX_fol(e)
-EX_strch1_m,strch1,9.02279238920406,"starch, structure 1 (1,6-{7[1,4-Glc], 4[1,4-Glc]})",,,,,,EX_strch1_m,EX_strch1(e)
-EX_core2_m,core2,1.0,Core 2,,,,,,EX_core2_m,EX_core2(e)
-EX_core2_rl_m,core2_rl,1.0,released Core 2,,,,,,EX_core2_rl_m,EX_core2_rl(e)
-EX_core3_m,core3,1.0,Core 3,,,,,,EX_core3_m,EX_core3(e)
-EX_core6_m,core6,1.0,Core 6,,,,,,EX_core6_m,EX_core6(e)
-EX_core8_m,core8,1.0,Core 8,,,,,,EX_core8_m,EX_core8(e)
-EX_core4_m,core4,1.0,Core 4,,,,,,EX_core4_m,EX_core4(e)
-EX_core4_rl_m,core4_rl,1.0,released Core 4,,,,,,EX_core4_rl_m,EX_core4_rl(e)
-EX_core5_m,core5,1.0,Core 5,,,,,,EX_core5_m,EX_core5(e)
-EX_gncore1_m,gncore1,1.0,"GlcNAc-alpha-1,4-Core 1",,,,,,EX_gncore1_m,EX_gncore1(e)
-EX_gncore1_rl_m,gncore1_rl,1.0,"released GlcNAc-alpha-1,4-Core 1",,,,,,EX_gncore1_rl_m,EX_gncore1_rl(e)
-EX_gncore2_m,gncore2,1.0,"GlcNAc-alpha-1,4-Core 2",,,,,,EX_gncore2_m,EX_gncore2(e)
-EX_gncore2_rl_m,gncore2_rl,1.0,"released GlcNAc-alpha-1,4-Core 2",,,,,,EX_gncore2_rl_m,EX_gncore2_rl(e)
-EX_core7_m,core7,1.0,Core 7,,,,,,EX_core7_m,EX_core7(e)
-EX_gchola_m,gchola,1.0,glycocholate,HMDB00138,C01921,10140.0,,,EX_gchola_m,EX_gchola(e)
-EX_tchola_m,tchola,1.0,taurocholate,HMDB00036,,440567.0,,,EX_tchola_m,EX_tchola(e)
-EX_cellul_m,cellul,0.1,"Cellulose, chain length 500 glc_D assumed, DOI: 10.1002/anie.200460587",,,,,,EX_cellul_m,EX_cellul(e)
-EX_o2_m,o2,0.001,O2,HMDB01377,C00007,977.0,InChI=1S/O2/c1-2,,EX_o2_m,EX_o2(e)
-EX_26dap_M_m,26dap_M,0.0046238,"meso-2,6-Diaminoheptanedioate",,,,,,EX_26dap_M_m,EX_26dap_M(e)
-EX_2dmmq8_m,2dmmq8,0.00079397,2-Demethylmenaquinone 8,,,,,,EX_2dmmq8_m,EX_2dmmq8(e)
-EX_cgly_m,cgly,0.004116949999999995,L-cysteinylglycine,HMDB00078,C01419,439498.0,"InChI=1S/C5H10N2O3S/c6-3(2-11)5(10)7-1-4(8)9/h3,11H,1-2,6H2,(H,7,10)(H,8,9)/t3-/m0/s1",,EX_cgly_m,EX_cgly(e)
-EX_cobalt2_m,cobalt2,0.0010012,Co2+,,,,,,EX_cobalt2_m,EX_cobalt2(e)
-EX_mn2_m,mn2,0.0010012,Mn2+,,,,,,EX_mn2_m,EX_mn2(e)
-EX_mqn8_m,mqn8,0.00079397,Menaquinone 8,,C00828,4086.0,,,EX_mqn8_m,EX_mqn8(e)
-EX_pheme_m,pheme,0.000396985,Protoheme,HMDB03178,C00032,,,,EX_pheme_m,EX_pheme(e)
-EX_q8_m,q8,0.0003969850000000025,Ubiquinone-8,,,,,,EX_q8_m,EX_q8(e)
-EX_sheme_m,sheme,0.000396985,Siroheme,,,,,,EX_sheme_m,EX_sheme(e)
-EX_so4_m,so4,0.0010012,sulfate,HMDB01448,C00059,1118.0,"InChI=1S/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)/p-2",,EX_so4_m,EX_so4(e)
-EX_spmd_m,spmd,0.000396985,Spermidine,HMDB01257,C00315,1102.0,"InChI=1S/C7H19N3/c8-4-1-2-6-10-7-3-5-9/h10H,1-9H2/p+3",,EX_spmd_m,EX_spmd(e)
-EX_thymd_m,thymd,0.0010980999999999999,Thymidine,HMDB00273,C00214,5789.0,"InChI=1S/C10H14N2O5/c1-5-3-12(10(16)11-9(5)15)8-2-6(14)7(4-13)17-8/h3,6-8,13-14H,2,4H2,1H3,(H,11,15,16)/t6-,7+,8+/m0/s1",,EX_thymd_m,EX_thymd(e)
-EX_zn2_m,zn2,0.0010012,Zinc,,,,,,EX_zn2_m,EX_zn2(e)
-EX_asn_L_m,asn_L,0.065847350000001,L-asparagine,HMDB00168,C00152,6267.0,"InChI=1S/C4H8N2O3/c5-2(4(8)9)1-3(6)7/h2H,1,5H2,(H2,6,7)(H,8,9)/t2-/m0/s1",,EX_asn_L_m,EX_asn_L(e)
-EX_gthrd_m,gthrd,0.000396985,Reduced glutathione,HMDB00125,C00051,124886.0,,,EX_gthrd_m,EX_gthrd(e)
-EX_hxan_m,hxan,0.023320474999999487,Hypoxanthine,HMDB00157,C00262,790.0,"InChI=1S/C5H4N4O/c10-5-3-4(7-1-6-3)8-2-9-5/h1-2H,(H2,6,7,8,9,10)",,EX_hxan_m,EX_hxan(e)
-EX_nmn_m,nmn,0.030458595997833487,NMN,HMDB00229,C00455,14180.0,,,EX_nmn_m,EX_nmn(e)
-EX_4abz_m,4abz,0.0011909550000000022,4-Aminobenzoate,,,,,,EX_4abz_m,EX_4abz(e)
-EX_mqn7_m,mqn7,0.000793970000000005,Menaquinone 7,,C00828,4086.0,,,EX_mqn7_m,EX_mqn7(e)
-EX_csn_m,csn,0.014682199999999998,cytosine,HMDB00630,C00380,597.0,"InChI=1S/C4H5N3O/c5-3-1-2-6-4(8)7-3/h1-2H,(H3,5,6,7,8)",,EX_csn_m,EX_csn(e)
-EX_adn_m,adn,0.011044700000000476,Adenosine,HMDB00050,C00212,60961.0,,,EX_adn_m,EX_adn(e)
-EX_gthox_m,gthox,0.0001984925,Oxidized glutathione,HMDB03337,C00127,65359.0,,,EX_gthox_m,EX_gthox(e)
-EX_h2s_m,h2s,0.19205005000000092,Hydrogen sulfide,,,,,,EX_h2s_m,EX_h2s(e)
-EX_12dgr180_m,12dgr180,0.0021296,"1,2-Diacyl-sn-glycerol (dioctadecanoyl, n-C18:0)",,,,,,EX_12dgr180_m,EX_12dgr180(e)
-EX_4hbz_m,4hbz,0.0003969850000000025,4-hydroxybenzoate,HMDB00500,C00156,,"InChI=1S/C7H6O3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H,(H,9,10)/p-1",,EX_4hbz_m,EX_4hbz(e)
-EX_cspg_b_m,cspg_b,0.00013015666666666667,chondroitin sulfate B / dermatan sulfate (IdoA2S-GalNAc4S) proteoglycan,,,,,,EX_cspg_b_m,EX_cspg_b(e)
-EX_xyl_D_m,xyl_D,0.059301925000000644,aldehydo-D-xylose,,,644160.0,"InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h1,3-5,7-10H,2H2/t3-,4+,5+/m0/s1",,EX_xyl_D_m,EX_xyl_D(e)
-EX_hspg_m,hspg,0.00057120625,heparan sulfate proteoglycan,,,,,,EX_hspg_m,EX_hspg(e)
-EX_2obut_m,2obut,0.0163492,2-Oxobutanoate,HMDB00005,C00109,58.0,"InChI=1S/C4H6O3/c1-2-3(5)4(6)7/h2H2,1H3,(H,6,7)/p-1",,EX_2obut_m,EX_2obut(e)
-EX_dad_2_m,dad_2,0.011044700000000254,2-deoxyadenosine,HMDB00101,C00559,13730.0,"InChI=1S/C10H13N5O3/c11-9-8-10(13-3-12-9)15(4-14-8)7-1-5(17)6(2-16)18-7/h3-7,16-17H,1-2H2,(H2,11,12,13)/t5-,6+,7+/m0/s1",,EX_dad_2_m,EX_dad_2(e)
-EX_dcyt_m,dcyt,0.010348949999999999,Deoxycytidine,HMDB00014,C00881,13711.0,"InChI=1S/C9H13N3O4/c10-7-1-2-12(9(15)11-7)8-3-5(14)6(4-13)16-8/h1-2,5-6,8,13-14H,3-4H2,(H2,10,11,15)/t5-,6+,8+/m0/s1",,EX_dcyt_m,EX_dcyt(e)
-EX_gua_m,gua,0.00875694999999916,Guanine,HMDB00132,C00242,764.0,"InChI=1S/C5H5N5O/c6-5-9-3-2(4(11)10-5)7-1-8-3/h1H,(H4,6,7,8,9,10,11)",,EX_gua_m,EX_gua(e)
-EX_arabttr_m,arabttr,0.020157293333332833,Arabinotriose,,,,,,EX_arabttr_m,EX_arabttr(e)
-EX_ura_m,ura,0.056677,uracil,HMDB00300,C00106,1174.0,"InChI=1S/C4H4N2O2/c7-3-1-2-5-4(8)6-3/h1-2H,(H2,5,6,7,8)",,EX_ura_m,EX_ura(e)
-EX_arab_D_m,arab_D,0.0043632,D-Arabinose,,,,,,EX_arab_D_m,EX_arab_D(e)
-EX_rib_D_m,rib_D,0.04028348000000043,D-ribose,HMDB00283,C00121,5779.0,,,EX_rib_D_m,EX_rib_D(e)
-EX_cit_m,cit,0.000464475,Citrate,HMDB00094,C00158,311.0,"InChI=1S/C6H8O7/c7-3(8)1-6(13,5(11)12)2-4(9)10/h13H,1-2H2,(H,7,8)(H,9,10)(H,11,12)/p-3",,EX_cit_m,EX_cit(e)
-EX_h_m,h,4.692063211926399,proton,HMDB01362,C00282,1038.0,InChI=1S/p+1/i/hH,,EX_h_m,EX_h(e)
-EX_h2_m,h2,5.8198267749999575,Hydrogen,HMDB01362,C00282,783.0,InChI=1S/H2/h1H,,EX_h2_m,EX_h2(e)
-EX_3mop_m,3mop,0.01767878,3-methyl-2-oxopentanoate,HMDB00491,C03465,47.0,"InChI=1S/C6H10O3/c1-3-4(2)5(7)6(8)9/h4H,3H2,1-2H3,(H,8,9)/p-1",,EX_3mop_m,EX_3mop(e)
-EX_orn_m,orn,0.000154825,Ornithine,HMDB00214,C00077,6262.0,"InChI=1S/C5H12N2O2/c6-3-1-2-4(7)5(8)9/h4H,1-3,6-7H2,(H,8,9)/p+1",,EX_orn_m,EX_orn(e)
-EX_no3_m,no3,0.002061444999999996,Nitrate,,,,,,EX_no3_m,EX_no3(e)
-EX_rbflvrd_m,rbflvrd,0.0006234154587089801,Reduced riboflavin,,,,,,EX_rbflvrd_m,EX_rbflvrd(e)
-EX_acgam_m,acgam,0.0050022,N-acetyl-D-glucosamine,HMDB00215,C00140,439174.0,"InChI=1S/C8H15NO6/c1-4(12)9-5(2-10)7(14)8(15)6(13)3-11/h2,5-8,11,13-15H,3H2,1H3,(H,9,12)/t5-,6+,7+,8+/m0/s1",,EX_acgam_m,EX_acgam(e)
-EX_gln_L_m,gln_L,0.034261860000000005,L-glutamine,HMDB00641,C00064,5961.0,"InChI=1S/C5H10N2O3/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H2,7,8)(H,9,10)/t3-/m0/s1",,EX_gln_L_m,EX_gln_L(e)
-EX_dgsn_m,dgsn,0.011042350000000001,Deoxyguanosine,HMDB00085,C00330,187790.0,"InChI=1S/C10H13N5O4/c11-10-13-8-7(9(18)14-10)12-3-15(8)6-1-4(17)5(2-16)19-6/h3-6,16-17H,1-2H2,(H3,11,13,14,18)/t4-,5+,6+/m0/s1",,EX_dgsn_m,EX_dgsn(e)
-EX_ptrc_m,ptrc,0.000396985,Putrescine,HMDB01414,C00134,1045.0,InChI=1S/C4H12N2/c5-3-1-2-4-6/h1-6H2/p+2,,EX_ptrc_m,EX_ptrc(e)
-EX_for_m,for,0.24729650000000203,Formate,HMDB00142,C00058,284.0,"InChI=1S/CH2O2/c2-1-3/h1H,(H,2,3)/p-1",,EX_for_m,EX_for(e)
-EX_ade_m,ade,0.022087050000001173,Adenine,HMDB00034,C00147,190.0,"InChI=1S/C5H5N5/c6-4-3-5(9-1-7-3)10-2-8-4/h1-2H,(H3,6,7,8,9,10)",,EX_ade_m,EX_ade(e)
-EX_ala_D_m,ala_D,0.0092476,D-alanine,HMDB01310,C00133,71080.0,"InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m1/s1",,EX_ala_D_m,EX_ala_D(e)
-EX_chor_m,chor,0.00028957500000000025,chorismate,,,,,,EX_chor_m,EX_chor(e)
-EX_co2_m,co2,0.02888054599783333,carbon dioxide,HMDB01967,C00011,280.0,InChI=1S/CO2/c2-1-3,,EX_co2_m,EX_co2(e)
-EX_acmana_m,acmana,0.0050022,N-acetyl-D-mannosamine,HMDB01129,C00645,439281.0,"InChI=1S/C8H15NO6/c1-4(12)9-5(2-10)7(14)8(15)6(13)3-11/h2,5-8,11,13-15H,3H2,1H3,(H,9,12)/t5-,6-,7-,8-/m0/s1",,EX_acmana_m,EX_acmana(e)
-EX_MGlcn7_m,MGlcn7,0.0046238,mucin-type O-glycan No 7,,,,,,EX_MGlcn7_m,EX_MGlcn7(e)
-EX_no2_m,no2,0.0014860616666666653,Nitrite,HMDB02786,C00088,24529.0,"InChI=1S/HNO2/c2-1-3/h(H,2,3)/p-1",,EX_no2_m,EX_no2(e)
-EX_xan_m,xan,0.0546245,Xanthine,HMDB00292,C00385,1188.0,"InChI=1S/C5H4N4O2/c10-4-2-3(7-1-6-2)8-5(11)9-4/h1H,(H3,6,7,8,9,10,11)",,EX_xan_m,EX_xan(e)
-EX_acald_m,acald,0.0007526,acetaldehyde,HMDB00990,C00084,177.0,"InChI=1S/C2H4O/c1-2-3/h2H,1H3",,EX_acald_m,EX_acald(e)
+index,reaction,flux
+EX_etoh_m,EX_etoh_m,22.792195952106
+EX_h2o_m,EX_h2o_m,181671.336776337
+EX_caro_m,EX_caro_m,0.0131316070144016
+EX_retinol_m,EX_retinol_m,1.0996622116965
+EX_thm_m,EX_thm_m,7.23560096565124
+EX_adpcbl_m,EX_adpcbl_m,2.5671351746e-06
+EX_ribflv_m,EX_ribflv_m,0.0068949227064551
+EX_nac_m,EX_nac_m,0.479928584005929
+EX_ncam_m,EX_ncam_m,0.216377371962733
+EX_pnto_R_m,EX_pnto_R_m,0.0548511412428343
+EX_pydam_m,EX_pydam_m,0.0049940603187924
+EX_pydxn_m,EX_pydxn_m,0.0049947451734211
+EX_pydx_m,EX_pydx_m,0.0050549766095165
+EX_btn_m,EX_btn_m,0.0004792178631803
+EX_10fthf_m,EX_10fthf_m,0.0002546967333399
+EX_5mthf_m,EX_5mthf_m,0.0002619054422541
+EX_thf_m,EX_thf_m,0.0002707857432332
+EX_ascb_L_m,EX_ascb_L_m,1.51385194516555
+EX_vitd3_m,EX_vitd3_m,1.53391100248e-05
+EX_avite1_m,EX_avite1_m,0.0685386160075281
+EX_phyQ_m,EX_phyQ_m,0.0009363080233514
+EX_ca2_m,EX_ca2_m,33.0201107839713
+EX_cl_m,EX_cl_m,231.445011705638
+EX_k_m,EX_k_m,116.447773944136
+EX_mg2_m,EX_mg2_m,31.1553178358363
+EX_na1_m,EX_na1_m,147.911880218747
+EX_pi_m,EX_pi_m,22.3360662142775
+EX_cu2_m,EX_cu2_m,0.0473279199320177
+EX_fe2_m,EX_fe2_m,0.424456083803384
+EX_fe3_m,EX_fe3_m,0.424456083803384
+EX_mn2(e)_m,EX_mn2(e)_m,0.174378247351175
+EX_zn2(e)_m,EX_zn2(e)_m,0.244799632915265
+EX_mnl(e)_m,EX_mnl(e)_m,2.6911958931075
+EX_xylt_m,EX_xylt_m,0.276050998450171
+EX_lcts_m,EX_lcts_m,26.574680138418
+EX_malt_m,EX_malt_m,0.803397054892469
+EX_sucr_m,EX_sucr_m,137.117966441375
+EX_fru_m,EX_fru_m,157.32729263932
+EX_gal_m,EX_gal_m,1.01023613437029
+EX_cellul(e)_m,EX_cellul(e)_m,0.237688252970771
+EX_ala_L_m,EX_ala_L_m,59.0612976074493
+EX_arg_L_m,EX_arg_L_m,40.6717067454907
+EX_asp_L_m,EX_asp_L_m,80.1605212018348
+EX_cys_L_m,EX_cys_L_m,13.8267983512466
+EX_glu_L_m,EX_glu_L_m,130.815459484688
+EX_gly_m,EX_gly_m,60.7824918139359
+EX_urate_m,EX_urate_m,6.31918448780354
+EX_his_L_m,EX_his_L_m,17.2196634840346
+EX_ile_L_m,EX_ile_L_m,41.9322512500677
+EX_leu_L_m,EX_leu_L_m,63.3179185639717
+EX_lys_L_m,EX_lys_L_m,46.3467633181721
+EX_met_L_m,EX_met_L_m,12.6699519406372
+EX_phe_L_m,EX_phe_L_m,29.6979340646568
+EX_pro_L_m,EX_pro_L_m,50.90466904947
+EX_ser_L_m,EX_ser_L_m,52.1149443443211
+EX_thr_L_m,EX_thr_L_m,38.2589456611529
+EX_trp_L_m,EX_trp_L_m,6.19299185409048
+EX_tyr_L_m,EX_tyr_L_m,21.2683752004128
+EX_val_L_m,EX_val_L_m,50.9786480665629
+EX_dca_m,EX_dca_m,0.0434435557849707
+EX_ddca_m,EX_ddca_m,0.101851489490231
+EX_ttdca_m,EX_ttdca_m,0.78750720213931
+EX_ttdcea_m,EX_ttdcea_m,0.0312850708972958
+EX_ptdca_m,EX_ptdca_m,0.0721033549084136
+EX_hdca_m,EX_hdca_m,34.4471433085072
+EX_hpdca_m,EX_hpdca_m,0.202603373555862
+EX_ocdca_m,EX_ocdca_m,9.42414222633633
+EX_ocdcea_m,EX_ocdcea_m,130.212461458984
+EX_lnlc_m,EX_lnlc_m,66.4728248713934
+EX_lnlnca_m,EX_lnlnca_m,22.7631796647487
+EX_strdnc_m,EX_strdnc_m,0.0
+EX_arach_m,EX_arach_m,0.667592228490719
+EX_CE2510_m,EX_CE2510_m,1.00671520413458
+EX_CE4843_m,EX_CE4843_m,0.0380336706118266
+EX_arachd_m,EX_arachd_m,0.359587410354417
+EX_docosac_m,EX_docosac_m,0.394315728220756
+EX_doco13ac_m,EX_doco13ac_m,0.0498874717568477
+EX_adrn_m,EX_adrn_m,0.0
+EX_clpnd_m,EX_clpnd_m,0.0501674981380665
+EX_crvnc_m,EX_crvnc_m,0.384328461895265
+EX_but_m,EX_but_m,0.0723329797054326
+EX_octa_m,EX_octa_m,0.0155024143962962
+EX_chsterol_m,EX_chsterol_m,1.05303585768653
+EX_sbt_D_m,EX_sbt_D_m,6.5699521001604
+EX_glc_D_m,EX_glc_D_m,120.210995032636
+EX_hdcea_m,EX_hdcea_m,3.61698466813181
+EX_lgnc_m,EX_lgnc_m,0.166975492670868
+EX_fol_m,EX_fol_m,0.0002726450108369
+EX_strch1_m,EX_strch1_m,45.1139619460203
+EX_i_m,EX_i_m,0.0036606275570907
+EX_starch1200(e)_m,EX_starch1200(e)_m,0.417683121486647
