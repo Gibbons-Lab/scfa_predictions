@@ -17,6 +17,6 @@ Abundance matricies and measured SCFAs for each study are available in the _Data
 
 Original data collected from experiments or publications is in the _raw_data_ subdirectory within the _Data_ directory
 
-__Results__
+__Media__
 
-All results are found in the _Results_ directory
+All media used in the growth simulations are available in the _Media_ directory
