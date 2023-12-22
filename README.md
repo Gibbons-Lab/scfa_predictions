@@ -1,5 +1,19 @@
 # Prediction of Short-Chain Fatty Acid Production from the Human Gut Microbiome
-In this respository, find all analyses for the manuscript "Microbial community-scale metabolic modeling predicts personalized short-chain-fatty-acid production profiles in the human gut", Bohmann et al., 2023. 
+In this respository, find all analyses for the manuscript "Microbial community-scale metabolic modeling predicts personalized short-chain-fatty-acid production profiles in the human gut", Quinn-Bohmann et al., 2023. 
 
-In the notebooks directory, all Jupyter notebooks for all analyses can be found. invitro.ipynb details the construction and simulation of in vitro samples from Clark et al., 2021. study_a.ipynb, study_b.ipynb, and study_c.ipynb contian analysis of ex vivo studies A, B and C. fiber_study.ipynb contains analysis for modeling of samples from Wastyk et al., 2021. arivale.ipynb contians analysis of SCFA predictions against blood-based clinical labs in the Arivale population. intervention.ipynb contians analysis of differential response to prebiotic and probiotic interventions in the Arivale cohort. Finally, figures.ipynb contains the necessary code to construct all figures in the manuscript. 
+__Notebooks__
+In the notebooks directory, all Jupyter notebooks for all analyses can be found. invitro.ipynb details the construction and simulation of in vitro samples from Clark et al., 2021, as shown in Fig. 2A.
 
+studyA.ipynb, studyB.ipynb, studyC.ipynb and studyD.ipynb contain analysis of ex vivo studies A, B, C and D. summarized_exvivos.ipynb contains combined z-scored predictions for all studies, as shown in Fig. 2B and Fig 3.
+
+fiber_study.ipynb contains analysis for modeling of samples in the longitudinal fiber study from Wastyk et al., 2021.
+
+Analysis of blood chemistry association and interventions are not included, as Arivale data is not publically available. 
+
+__Data__ 
+Abundance matricies and measured SCFAs for each study are available in the _Data_ directory. 
+
+Original data collected from experiments or publications is in the _raw_data_ subdirectory within the _Data_ directory
+
+__Results__ 
+All results are found in the _Results_ directory
